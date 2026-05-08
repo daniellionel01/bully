@@ -69,6 +69,7 @@ func NewClient(downloadDir string) (*Client, error) {
 
 	cfg := torrent.NewDefaultClientConfig()
 	cfg.DataDir = downloadDir
+	cfg.ListenPort = 0 // random port, avoids conflicts when multiple clients or tests
 	cfg.Seed = false // don't seed after download completes
 	cfg.NoDefaultPortForwarding = true
 	cfg.DisablePEX = false
