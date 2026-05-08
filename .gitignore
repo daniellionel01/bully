@@ -1,0 +1,22 @@
+# Binary
+bully
+
+# macOS
+.DS_Store
+.AppleDouble
+
+# Logs
+*.log
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Build artifacts
+/tmp/
+/dist/
+
+# Go
+vendor/
