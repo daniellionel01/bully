@@ -17,15 +17,6 @@
 ╰──────────────────────────────────────────────────────────╯
 ```
 
-## Why bully?
-
-| Problem | bully's solution |
-|---|---|
-| WebTorrent Desktop crashes on M2 | Native Go binary — no Electron, no JS GC |
-| Confusing interfaces | One input box. Paste → Enter → done |
-| Starts at KB/s, jumps to MB/s on refresh | Speed booster: detects stalls, re-announces trackers & DHT automatically |
-| Lost connections, restarts | State persists to `~/.bully/`. Close & reopen → resumes where you left off |
-
 ## Install
 
 ```bash
