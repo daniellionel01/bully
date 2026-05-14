@@ -1,5 +1,7 @@
 # ⚡ bully
 
+> This is a failed experiment. The downloaded files were all corrupt. It is going to be an interesting case study for AI generated code and how it could still get this wrong.
+
 **Zero-config torrent downloader for macOS.** Paste a magnet link, walk away, come back to a completed download.
 
 ```
